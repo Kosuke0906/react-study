@@ -1,0 +1,116 @@
+.fv {
+  padding: 30px;
+}
+
+.header {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px 0;
+}
+.yarn-install {
+  width: 90%;
+  margin: 0 auto;
+}
+.img {
+  width: 40%;
+  margin: 200px auto;
+  & .icon {
+    animation: r１ 30s linear infinite;
+    @keyframes r１ {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  & p {
+    text-align: center;
+    font-size: 2rem;
+    color: skyblue;
+    font-style: oblique;
+  }
+}
+.intro {
+    width: 80%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 70px;
+  margin: 250px auto;
+}
+.index {
+    width: 50%;
+    margin: 200px auto;
+    & p {
+        font-size: 2.5rem;
+    }
+    & li {
+        font-size: 2rem;
+        height: 50px;
+    }
+}
+h3 {
+  font-size: 2rem;
+  padding: 20px;
+  font-weight: bold;
+  animation: r4 30s linear infinite;
+    @keyframes r4 {
+      0% {
+        transform: scale(0);
+      }
+      100% {
+        transform: scale(1.5);
+      }
+    }
+  &,
+  span {
+    font-size: 2.5rem;
+    margin-right: 20px;
+  }
+}
+.mac{
+    margin: 100px 0;
+}
+h4 {
+    font-size: 2.5rem;
+    padding-top: 100px;
+    
+}
+p{
+    font-size: 1.6rem;
+    padding: 20px;
+    line-height: 50px;
+}
+a{
+    color: yellow;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.homebrew {
+    font-size: 2rem;
+    margin-top: 100px;
+}
+.nice-work {
+    font-size: 1rem;
+}
+.windows {
+    margin: 100px 0;
+}
+.about {
+    margin: 100px 0;
+    & p {
+        line-height: 50px;
+    }
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+.node-install {
+    margin: 300px 0;
+}
+.node {
+    margin-top: 100px;
+}

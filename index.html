@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>React学習課題</title>
+  </head>
+  <body>
+    <div class="fv">
+      <h1 class="header">😆React環境構築☺️</h1>
+      <div class="img">
+        <img
+          class="icon"
+          src="./image/icon.png"
+          alt=""
+          width="100%"
+          height="auto"
+        />
+        <p>ワンステップ先へ</p>
+      </div>
+    </div>
+    <div class="yarn-install">
+      <div class="intro">
+        <small
+          >まずはReactを使える様になるための簡単な環境構築から行なっていきましょう！<br />私自身macなのですがwindowsでも対応できる様にします！！</small
+        >
+      </div>
+      <div class="index">
+        <p>目次</p>
+        <nav>
+          <ul>
+            <li id="list-1"><a href="#first">1章,yarnとwebpackのインストール</a></li>
+            <li><a href="#second">2章,Node.jsのインストール</a></li>
+            <li>3,</li>
+            <li>4,</li>
+          </ul>
+        </nav>
+      </div>
+      <h3 id="first"><span>1章,</span>yarnとwebpackのインストール</h3>
+      <div class="mac">
+        <h4>mac編</h4>
+        <div>
+          <p>①以下のURLよりxcodeの取得</p>
+          <a href="https://itunes.apple.com/jp/app/xcode/id497799835"
+            >https://itunes.apple.com/jp/app/xcode/id497799835</a
+          >
+        </div>
+        <div>
+          <p>
+            ②以下のコマンドをターミナルで入力し専用のコマンドラインツールをインストールします。
+          </p>
+          <div><p>コマンド：xcode-select --install</p></div>
+        </div>
+        <div>
+          <p>③以下のURLよりhomebrewの取得</p>
+          <a href="https://brew.sh/index_ja.html"
+            >https://brew.sh/index_ja.html</a
+          >
+          <div class="homebrew">homebrewはmac用のパッケージマネージャーです！<br>簡単に言えばbrewを使ってyarnをインストール致します😙</div>
+        </div>
+        <div>
+          <p>
+            ④以下のコマンドをターミナルで入力してyarnをインストールしましょう！
+          </p>
+          <div class="nice-work"><p>コマンド：brew install yarn</p><br>お疲れ様です☺️これでmacの方はインストールが出来ています！<br>次はNodeをインストールしてみましょう！！</div>
+        </div>
+      </div>
+      <div class="windows">
+        <h4>windowsの方は次にお進み下さい！！</h4>
+        <div>
+          <div class="about">
+            <h1>この二つ覚えて下さい！！</h1>
+            <h4>webpackとは？？</h4>
+            <p>
+              html,cssでコーディングをしたことがある方は分かると思いますが、
+              一つのページ（シングルページ）を複数のファイル（モジュール）で作ることは多くありません。
+              ですがReactでは基本その様に作ります。一つ一つのファイルを一まとめにすること（バンドルと言います）がwebpackの役割だと思ってください。そしてこのwebpackは自分でカスタマイズすることが出来るのです！！bootstrapやcssをバンドルできる様になります。
+            </p>
+            <h4>yarnとは？？</h4>
+            <p>
+              webpackに引き続きyarnの説明です。yarnはここでは簡単にこう考えてください！！webpackを作動させる専門家だと！！webpack自体では動くことは出来ず、そのスイッチを押すのがミスターyarnなんです。同じものとしてnpmがありますが、yarnの方がスピードが早いのでnpmの上位互換と思ってもらえればいいのかなと思います！！
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="node-install">
+        <h3 id="second"><span>２章,</span>Node.jsのインストール</h3>
+        <p>Node.jsみなんさん聞いたことはあるかもです...！！<br>そうですバックエンドの言語ですね！<br>なぜこれが必要かというとwebpackでゲットするツールがNodeで出来ているのでこれを処理するのに必要になって来るんです👍</p>
+        <p>
+          先ずはこのNode.jsが入っているかを確認しましょう！<br />ターミナルでnode
+          -vと打ってみて下さい。<br />下記の様にバージョンが出ればそのまま使えます！！<br>
+         <span><img src="./image/node-v.png" alt="" width="70%" height="auto"></span>
+          <br>そうじゃなかった場合ここでやってみましょう！
+        </p>
+        <div class="node">
+          <h4>mac編</h4>
+          <p>①以下のリンクから飛んでNode.jsをインストールします。</p>
+          <div>
+            <img
+              src="./image/node-download.png"
+              alt=""
+              width="70%"
+              height="auto"
+            />
+          </div>
+          <a href="https://nodejs.org/en/">https://nodejs.org/en/</a>
+          <p>
+            ページを開くと二つ出てくると思うので一般的に使われている左の方をダウンロードしましょう！！
+          </p>
+        </div>
+        <h4>windows編</h4>
+        <p>windowsの方はまだyarnがインストールできていないはずです！！<br />
+        ここでやって行きましょう！！
+        </p>
+        <div>
+          <p>
+          ①以下のサイトより自身のOSに合ったNode.jsをインストールしていきましょう！
+        </p>
+        <a href="https://nodejs.org/en/">https://nodejs.org/en/</a>
+        <p>③以下のサイトからyarnをインストール</p>
+        <a href="https://yarnpkg.com/lang/ja/docs/install/#windows-stable"
+          >https://yarnpkg.com/lang/ja/docs/install/#windows-stable</a
+        >
+        </div>
+       
+        <h4></h4>
+      </div>
+    </div>
+    <script>
+    $("#list-1").animate({scrollTop:$('#first').offset().top});
+    </script>
+  </body>
+</html>

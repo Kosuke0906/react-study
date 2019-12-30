@@ -1,0 +1,196 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  scroll-behavior: smooth;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-size: 62.5%;
+  background-image: url(../image/top2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: yellow;
+  text-align: center;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.fv {
+  padding: 30px;
+}
+
+.header {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.yarn-install {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.img {
+  width: 40%;
+  margin: 200px auto;
+}
+.img .icon {
+  animation: r１ 30s linear infinite;
+}
+@keyframes r１ {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.img p {
+  text-align: center;
+  font-size: 2rem;
+  color: skyblue;
+  font-style: oblique;
+}
+
+.intro {
+  width: 80%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 70px;
+  margin: 250px auto;
+}
+
+.index {
+  width: 50%;
+  margin: 200px auto;
+}
+.index p {
+  font-size: 2.5rem;
+}
+.index li {
+  font-size: 2rem;
+  height: 50px;
+}
+
+h3 {
+  font-size: 2rem;
+  padding: 20px;
+  font-weight: bold;
+  animation: r4 30s linear infinite;
+}
+@keyframes r4 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+h3,
+h3 span {
+  font-size: 2.5rem;
+  margin-right: 20px;
+}
+
+.mac {
+  margin: 100px 0;
+}
+
+h4 {
+  font-size: 2.5rem;
+  padding-top: 100px;
+}
+
+p {
+  font-size: 1.6rem;
+  padding: 20px;
+  line-height: 50px;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.homebrew {
+  font-size: 2rem;
+  margin-top: 100px;
+}
+
+.nice-work {
+  font-size: 1rem;
+}
+
+.windows {
+  margin: 100px 0;
+}
+
+.about {
+  margin: 100px 0;
+}
+.about p {
+  line-height: 50px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.node-install {
+  margin: 300px 0;
+}
+
+.node {
+  margin-top: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
