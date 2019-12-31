@@ -126,11 +126,42 @@
         >
         </div>
        
-        <h4></h4>
+        <p class="nice-work">
+          お疲れ様です！<br />これでmacもwindowsもYarn &
+          Nodeをインストール出来ているはずです💪
+        </p>
       </div>
+      <h3 id="third"><span>Episode3</span><br />Reactの起動</h3>
+      <p>事前課題の最終章です！！ここはそんなに難しく考えないで下さい😆</p>
+      <h4>mac編</h4>
+      <p>
+        ①ターミナルを開いて<br />先ずはyarnをこれから使いますよ〜と宣言をします！
+      </p>
+      <p>
+        Reactを作動させるファイルを作成しgit
+        cdでホームディレクトリから降りてきます！！<br />そしてターミナルで下記の様にコマンドを打って下さい！！
+      </p>
+      <p>コマンド：yarn init<br />コマンド：yarn add create-react-app</p>
+      <video
+        src="./image/recording.mov"
+        width="100%"
+        height="auto"
+        controls
+      ></video>
+<p>最終的にこの画面になれば成功です！！<br>お疲れ様でした〜😊</p>
+
+      <video src="./image/react-reco.mov" width="50%" height="auto" loop autoplay></video>
     </div>
     <script>
-    $("#list-1").animate({scrollTop:$('#first').offset().top});
+      $(document).ready(function() {
+        $(document).on("click", "#first1", function() {
+          $("html, body").animate({ scrollTop: $("#first").offset().top },1000);});
+        $(document).on("click", "#second2", function() {
+          $("html, body").animate( {scrollTop: $("#second").offset().top}, 1000 );});
+        $(document).on("click", "#third3", function() {
+          $("html, body").animate( {scrollTop: $("#third").offset().top}, 1000 );});
+
+      });
     </script>
   </body>
 </html>
