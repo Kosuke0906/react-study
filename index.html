@@ -32,10 +32,9 @@
         <p>目次</p>
         <nav>
           <ul>
-            <li id="list-1"><a href="#first">1章,yarnとwebpackのインストール</a></li>
-            <li><a href="#second">2章,Node.jsのインストール</a></li>
-            <li>3,</li>
-            <li>4,</li>
+            <li id="list-1">1章,yarnとwebpackのインストール</li>
+            <li id="list-2">2章,Node.jsのインストール</li>
+            <li id="list-3">3章,Reactの起動</li>
           </ul>
         </nav>
       </div>
@@ -151,11 +150,11 @@
     </div>
     <script>
       $(document).ready(function() {
-        $(document).on("click", "#first1", function() {
+        $(document).on("click", "#list-1", function() {
           $("html, body").animate({ scrollTop: $("#first").offset().top },1000);});
-        $(document).on("click", "#second2", function() {
+        $(document).on("click", "#list-2", function() {
           $("html, body").animate( {scrollTop: $("#second").offset().top}, 1000 );});
-        $(document).on("click", "#third3", function() {
+        $(document).on("click", "#list-3", function() {
           $("html, body").animate( {scrollTop: $("#third").offset().top}, 1000 );});
 
       });
